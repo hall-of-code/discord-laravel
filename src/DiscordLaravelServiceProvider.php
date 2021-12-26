@@ -24,6 +24,6 @@ class DiscordLaravelServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        echo ('Hello');
+        return ('Hello');
     }
 }
