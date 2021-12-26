@@ -4,7 +4,7 @@ namespace hallofcode\discordLaravel;
 
 use Illuminate\Support\ServiceProvider;
 
-class AppServiceProvider extends ServiceProvider
+class DiscordLaravelServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
