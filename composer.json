@@ -1,0 +1,19 @@
+{
+    "name": "hallofcode/discord-laravel",
+    "description": "-- Simple Discord Laravel Library --",
+    "type": "Laravel Package",
+    "license": "yes",
+    "autoload": {
+        "psr-4": {
+            "Hallofcode\\DiscordLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Theo Andrup",
+            "email": "Theo.Andrup@t-online.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
