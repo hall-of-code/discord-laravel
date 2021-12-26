@@ -1,6 +1,6 @@
 <?php
 
-namespace hallofcode/discord-laravel;
+namespace hallofcode\discordLaravel;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -14,6 +14,7 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         //
+        echo ('Hello');
     }
 
     /**
@@ -23,6 +24,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        dd('Hello');
+        echo ('Hello');
     }
 }
